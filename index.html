@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;300;500;900&display=swap" rel="stylesheet">
+
+
+
+    <!-- Linked BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+    <!-- Linked jcarousel css and themeCss -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+
+
+
+    <!-- Linked Custom CSS do not -------- change the css file sequence -->
+    
+    <link rel="stylesheet" href="./projects/navbar.css">
+    <link rel="stylesheet" href="./home-page-contents/hero-cards-testimonials/index.css">
+    <link rel="stylesheet" href="./home-page-contents/Events/style.css">
+    <link rel="stylesheet" href="./home-page-contents/button.css">
+    <link rel="stylesheet" href="./home-page-contents/achievement/achievement.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+    <title>Home</title>
+
+
+    <!-- linking favicon -->
+    <link rel="icon" href="./img/favicon.ico">
+
+
+</head>
+
+
+
+<body>
+
+    <!-- JOIN US BTN -->
+    <a href="./join us page/join.html" id="join" class="join_us">JOIN US!</a>
+
+    <!-- Nav-Bar starts here -->
+    <div class="banner">
+        <div class="container">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" id="logonav" href="#"><img src="./home-page-contents/img/drawing.svg"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="myFunction('logonav')">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item left">
+                                <a class="nav-link" href="./index.html"
+                                    style="color: white;">Home</a>
+                            </li>
+                            <li class="nav-item ch">
+                                <a class="nav-link" href="./index.html#about"
+                                    style="color: white;">About</a>
+                            </li>
+                            <li class="nav-item ch">
+                                <a class="nav-link desk" href="./events-page/index.html" style="color: white;">Event</a>
+                                <a class="nav-link mobile"  style="color: white;" onclick="myFunction('event-year')">Event</a>
+                                <ul class="drop-menu">
+                                    <li><a href="./events-page/index.html"><button>2021-22</button></a></li>
+                                    <li><a href="./events-page/index2.html"><button>2020-21</button></a></li>
+                                </ul>
+                                <ul class="years-list" id="event-year">
+                                    <li><a href="./events-page/index.html"><button>2021-22</button></a></li>
+                                    <li><a href="./events-page/index2.html"><button>2020-21</button></a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ch">
+                                <a class="nav-link desk" href="./Teams Page/teams.html" style="color: white;">Team</a>
+                                <a class="nav-link mobile" style="color: white;" onclick="myFunction('team-year')">Team</a>
+                                <ul class="drop-menu">
+                                    <li><a href="./Teams Page/teams.html"><button>2021-22</button></a></li>
+                                    <li><a href="./Teams Page/teams2.html"><button>2020-21</button></a></li>
+                                    <li><a href="./Teams Page/teams3.html"><button>2019-20</button></a></li>
+                                    <li><a href="./Teams Page/teams4.html"><button>2018-19</button></a></li>
+                                </ul>
+                                <ul class="years-list" id="team-year">
+                                    <li><a href="./Teams Page/teams.html"><button>2021-22</button></a></li>
+                                    <li><a href="./Teams Page/teams2.html"><button>2020-21</button></a></li>
+                                    <li><a href="./Teams Page/teams3.html"><buttoon>2019-20</button></a></li>
+                                    <li><a href="./Teams Page/teams4.html"><buton>2018-19</button></a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item ch">
+                                <a class="nav-link desk" href="./Blog-page/blog.html" style="color: white;">Blog</a>
+                                <a class="nav-link mobile" style="color: white;" href="./Blog-page/blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item ch">
+                                <a class="nav-link desk" href="./gallery page/gallery.html#home"
+                                    style="color: white;">Gallery</a>
+                                <a class="nav-link mobile" style="color: white;" onclick="myFunction('gallery-year')">Gallery</a>
+                                <ul class="drop-menu">
+                                    <li><a href="./gallery page/gallery.html#2021-2022"><button>2021-22</button></a></li>
+                                    <li><a href="./gallery page/gallery.html#2020-2021"><button>2020-21</button></a></li>
+                                    <li><a href="./gallery page/gallery.html#2019-2020"><button>2019-20</button></a></li>
+                                    <li><a href="./gallery page/gallery.html#2018-2019"><button>2018-19</button></a></li>
+                                </ul>
+                                <ul class="years-list" id="gallery-year">
+                                    <li><a href="./gallery page/gallery.html#2021-2022"><button>2021-22</button></a></li>
+                                    <li><a href="./gallery page/gallery.html#2020-2021"><button>2020-21</button></a></li>
+                                    <li><a href="./gallery page/gallery.html#2019-2020"><button>2019-20</button></a></li>
+                                    <li><a href="./gallery page/gallery.html#2018-2019"><button>2018-19</button></a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ch">
+                                <a class="nav-link desk" href="./projects/project.html" style="color: white;">Project</a>
+                                <a class="nav-link mobile" href="./projects/project.html" style="color: white;">Project</a>
+
+                            </li>
+                            <li class="nav-item right">
+                                <a class="nav-link" href="./contact-page/index.html" style="color: white;">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+    <!-- Nav-Bar ends here -->
+
+
+
+    <!-- scroll button -->
+    <ion-icon onclick="topFunction()" class="scroll-btn" id="myBtn" title="Go to top" name="arrow-up-circle-outline">
+    </ion-icon>
+
+
+    <!-- join us btn -->
+    <!-- <div class="join"><a href=""><ion-icon name="at-circle-outline"></ion-icon></a></div> -->
+
+
+
+
+    <!-- partial:index.partial.html -->
+    <div id="large-header" class="large-header">
+    <canvas id="demo-canvas"></canvas>
+        <h1 class="main-title"><span class="thin">&lt </span>AEC <span class="thin">Coding Club /&gt</span></h1>
+
+        <!-- partial:index.partial.html -->
+            <p class="scroll-down btn-position"><a href="#about" class="animate">More</a></p>
+        <!-- partial -->
+    </div>
+
+
+    <!-- who are we -->
+    <section id="about" class="js--section-features about dark">
+        <div class="row header res-h">
+            <h2>Who are we ?</h2>
+        </div>
+        <div class="col-md-12 video mobile-display">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RHQOSNH8CsA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="row header-text">
+            <div class="col-md-6 club-para">
+                <!-- <h3>Subtitles</h3> -->
+                <div>
+                    <p>AEC Coding Club is an intrinsic part of Assam Engineering College (AEC), the first engineering college in the north-eastern India located in the Jalukbari area of Guwahati city.</p>
+                    <p>AEC Coding Club is a locus for all techie who are inquisitive and assiduos about tackling real life problem with the aid of programming. Since it's inception in 2016,it has been tenacious in fulfilling the needs of the students by conducting numerous events such as Hactoberfest(AEC Edition), Ideathon, Study Jam, Webinars on Github, python and many more providing a place to enhance cognitive and analytical skills. The club focusses on Coding, Algorithmic Programming, Competitive programming, Web Designing, App Development, and various other aspects of Programming.</p>
+                    <p>AEC Coding Club strives to inculcate and foster the culture of programming and to create a healthy programming environment in the campus It aims to create an environment which proliferate quantity and quality of programmers irrespective of their respective engineering discipline.</p>
+                </div>
+                <a href="./Teams Page/teams.html"><button type="button" class="btn btn-outline-light">Know More</button></a>
+            </div>
+            <div class="col-md-6 video laptop-display">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RHQOSNH8CsA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="events">
+        <div class="container sec">
+            <div class="events">
+                <!---------------caption--------------------->
+                <div class="caption">
+                    <div class="header res-h">
+                        <h2>Upcoming...</h2>
+                    </div>
+                </div>
+
+                <!---------------cards--------------------->
+                <div class="cards">
+                    <ul class="tilesWrap">
+                        <li>
+                            <h2>01</h2>
+                            <h3>Orientation Session 2021</h3>
+                            <p>
+                                A Club Orientation session for the new incoming batch of 2021-25. Through this orientation session, the new incomimg batch will be introduced with the various activities of the coding club.
+                            </p>
+                            <form action="https://chat.whatsapp.com/ImwQLUkxW123uO7Rc5AaXn">
+                                <button class="btn btnT" type="submit">Read more</button>
+                            </form>
+                        </li>
+                        <li>
+                            <h2>02</h2>
+                            <h3>Interview Prep Series</h3>
+                            <p>
+                                The Complete Interview Preparation Series is designed in such a way that you won’t need to go anywhere else for the interview preparation process – the course fulfills every single requirement of yours.
+                            </p>
+                            <form action="#">
+                                <button class="btn btnT" type="submit">Read More</button>
+                            </form>
+                        </li>
+                        <li>
+                            <h2>03</h2>
+                            <h3>Placement Series</h3>
+                            <p>
+                                The entire series will be conducted in various segments and is divided into multiple episodes, covering all the necessary details regarding placement and related stuff in product-based companies.
+                            </p>
+                            <form action="./events-page/index.html#placement">
+                                <button class="btn btnT" type="submit">Read more</button>
+                            </form>
+                        </li>
+                        <li>
+                            <h2>04</h2>
+                            <h3>Study Jam</h3>
+                            <p>
+                                Study Jam is a new initiative by AEC Coding Club which aims to improve the CP environment of AEC by conducting competitive programming competitions on weekly basis on every Sunday.
+                            </p>
+                            <form action="./events-page/index2.html#study-jam">
+                                <button class="btn btnT" type="submit">Read more</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+
+                <!---------------Read More Button--------------------->
+                <div class="frame">
+                    <a href="./events-page/index.html"><button type="button" class="btn btn-outline-light">Read More</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="incharge-note" class="teacher-note dark">
+        <div class="row header res-h">
+            <h2>From the Incharge's Desk</h2>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 note-1">
+                 <p>Programming is a cardinal element in computer science stream. The digital world is driven by Computer programs. The heart of the programs are the codes. The computer people are very enthusiastic about programming. This aura also attracts people from other streams to jam the RAM. For this reason some of the students from the department of computer science and engineering of Assam Engineering College (AEC) had come up with the idea of a club- called Coding Club of AEC. From time to time this club has been organising various events. The most notable one is the Annual coding competition during Pyrokinesis. Taking this opportunity, I applaud the efforts of club committee members and also the other members for nurturing the club to sustain. As a Professor in-charge, I wish the coding club of AEC may attain an envious height of success soon.</p>
+
+                 <h5>Dr. Gunajit Kalita</h5>
+                 <p class="designation">Professor in-charge, Coding Club, AEC</p>
+             </div>
+        </div>
+
+    </section>
+
+
+    <section id="president-note">
+        <div class="row ">
+            <div class="col-md-4"></div>
+            <div class="col-md-8 header pres-header">
+                <h2>From the Club's President</h2>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4 designation">
+                <img src="./home-page-contents/img/dp.png" class="img-fluid dis-pic" alt="" height="6%" width="10%">
+                <h5>Kaustov Duwarah</h5>
+                <p>President<br>AEC Coding Club</p>
+            </div>
+            <div class="col-md-8 note-2">
+                <h4><em>"Programming isn't about what you know, it's about what you can figure out."</em> </h4>
+                <p>At the very outset, I am privileged and honoured to hold the position of the President of AEC Coding Club for the session 2021-22. Coding Club is one of the active clubs of AEC, comprising of a large community of coding enthusiasts which is managed by experienced techies. The club offers multitudes of opportunities to its members and provide joyful experiential learning wherein each member is encouraged to participate whole heartedly in the various events organised by the club. </p>
+                <p>I am very fortunate to work with such dedicated, innovative and passionate team, where each day we get new learning experiences and a chance to constantly widen our horizons. With the team's cooperation, I believe we can provide a conducive coding environment in AEC and together can take the club to newer heights. </p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="features" class="dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./home-page-contents/hero-cards-testimonials/img/blogs.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BLOGS</h5>
+                            <p class="card-text">Interesting Technical Blogs written by the members of our Coding Club.</p>
+                            <a href="../Blog-page/blog.html"><button type="button" class="btn btn-outline-light">Know More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./home-page-contents/hero-cards-testimonials/img/projects.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PROJECTS</h5>
+                            <p class="card-text">Various projects made by our Coding Club members throughtout the session.</p>
+                                <a href="../projects/project.html"><button type="button" class="btn btn-outline-light">Know More</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./home-page-contents/hero-cards-testimonials/img/events.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">EVENTS</h5>
+                            <p class="card-text">Various technical and non technical events organised by the Coding Club.</p>
+                                <a href="../events-page/index.html"><button type="button" class="btn btn-outline-light">Know More</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+
+        <div class="header">
+            <h2 class="mb-0 pb-5">Achievements</h2>
+        </div>
+
+        <figure class="icon-cards mt-3">
+            <div class="icon-cards__content">
+              <div class="card icon-cards__item d-flex align-items-center justify-content-center">
+                <img src="./home-page-contents/img/jecHackathon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    A team from AEC coding club, by the name " Coders creed", won the third prize in the " Dr. Madhab Chandra Bora Memorial Hackathon", Organized by JEC on the occasion of its Diamond Jubilee Celebrations. 
+                    The team comprised of -
+                    <ul>
+                        <li>Reckon Mazumdar, 5th sem, CSE</li>
+                        <li>Arindam Bhowal, 3rd sem, ETE</li>
+                        <li>Hrishikesh Deuri, 3rd sem,EE</li>
+                        <li>Akash Chetia, 5th sem,ETE</li>
+                    </ul>
+            
+                    </p>
+                </div>
+            </div>
+              <div class="card icon-cards__item d-flex align-items-center justify-content-center">
+                <img src="./home-page-contents/img/hackzurich.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    A former core member of AEC Coding Club Mr. Amartya Ranjan Saikia won the Europe’s Biggest Hackathon Hack Zurich
+                    </p>
+                </div>
+            </div>
+              <div class="card icon-cards__item d-flex align-items-center justify-content-center">
+                <img src="./home-page-contents/img/sih.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                   Few core members of AEC coding club participated in India’s biggest hackathon, SMART INDIA HACKATHON organized by the ministry of Human Resource Development and  AICTE and managed to reach to the final round.
+                    The team comprised of – 
+                    <ul>
+                        <li>Binong Kiri Bey</li>
+                        <li>Kanishka Sarma</li>
+                        <li>Rahul Thapa</li>
+                        <li>Bhuswarna Kashyap</li>
+                    </ul>
+                    <!-- 1. Binong Kiri Bey
+                    2. Kanishka Sarma
+                    3. Rahul Thapa
+                    4. Bhuswarna Kashyap
+                     -->
+                    </p>
+                </div>
+                </div>
+            </div>
+          </figure>         
+    </section>
+
+    <!------------testimonials here--------------->
+    <!-- <section id="testimonials">
+        <div id="carouselExampleControls" class="carousel slide" data-pause="hover" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit.</blockquote>
+                    <img class="testimonial-image" src="./home-page-contents/hero-cards-testimonials/img/dog-img.jpg" alt="dog-profile">
+                    <em>Pebbles, New York</em>
+                </div>
+                <div class="carousel-item">
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit.</blockquote>
+                    <img class="testimonial-image" src="./home-page-contents/hero-cards-testimonials/img/lady-img.jpg" alt="lady-profile">
+                    <em>Beverly, Illinois</em>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- Footer starts here -->
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="footer-basic">
+                <footer>
+                    <div class="social"><a href="https://instagram.com/aec_codingclub?utm_medium=copy_link"><i class="icon ion-social-instagram"></i></a><a href="https://www.linkedin.com/company/aec-coding-club/"><i
+                                class="icon ion-social-linkedin"></i></a><a href="https://twitter.com/AEC_CodingClub"><i
+                                class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/aeccodingclub"><i
+                                class="icon ion-social-facebook"></i></a><a href="https://www.youtube.com/channel/UCsNneY49G-dFSQzX6WnMADA"><i
+                                class="icon ion-social-youtube"></i></a></div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="./Teams Page/privacy.html">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="./Teams Page/termsofuse.html">Terms of use</a></li>
+                    <p class="copyright"> © 2020-21 | Coding Club AEC </p>
+                </footer>
+            </div>
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer ends here -->
+
+    <!-- linking ion icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+    <!-- linking bbotstrap 4.4 cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- linking jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- JavaScrits here:-  -->
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+    <!-- partial -->
+    <script src="./home-page-contents/script.js"></script>
+    <!-- bootstrap JavaScrits for carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+    <!-- linking external javascript file -->
+    <script src="./hero-cards-testimonials/index.js"></script>
+
+    <!-- linking external javascript file -->
+    <script src="./home-page-contents/home.js"></script>
+    <script src="./home-page-contents/navbar.js"></script>
+    <script src="./Teams Page/teams.js"></script>
+
+
+    <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
+    <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
+    <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
+    <script src="./home-page-contents/script.js"></script>
+
+
+</body>
+
+
+
+</html>
