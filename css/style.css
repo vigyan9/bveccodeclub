@@ -7,9 +7,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: century;
+    font-family: monospace;
     list-style: none;
     text-decoration: none;
+   
 }
 body{
     background-image: url("../img/backround.gif");
@@ -77,14 +78,16 @@ img{
 li{
     margin-left: 10px;
 }
-h1{
+.welcome{
     color: aqua;
+font-size: 3rem;
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 10rem;
+    margin-bottom: 1.8rem;
     text-shadow:1px 1px 30px yellowgreen ;
     backdrop-filter: blur(5px);
 }
-p{
+/* p{
     color: aqua;
     font-size:1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -92,7 +95,7 @@ p{
     color: rgb(172, 172, 72);
     text-shadow:1px 1px 30px yellowgreen ;
    
-}
+} */
 
 @media only screen and (max-width: 900px) {
     .menu{

@@ -1,0 +1,186 @@
+.landing{
+    display: flex;
+    /* width: 100%; */
+    padding: 2rem;
+}
+
+.home-message{
+    width: 55%;
+}
+.message-title{
+color: aqua;
+font-family: monospace;
+font-size:1.7rem;
+width: max-content;
+margin-bottom: .7rem;
+padding: .5rem;
+border-color: aqua;
+border-radius:1.7rem 0  ;
+border: 1px groove;
+text-align: center;
+}
+
+.home-message p{
+    font-family: monospace;
+    font-size: 1rem;
+    color: rgb(206, 245, 253);
+    backdrop-filter: blur(50px);
+
+}
+
+.home-message button{
+    background-color: rgb(165, 250, 250);
+   padding: .3rem;
+   font-weight:500 ;
+   border-radius: 1rem 0;
+   cursor: pointer;
+}
+.home-message button:hover{
+    background-color: rgb(226, 248, 128);
+    font-weight: 600;
+  
+}
+.home-video{
+    width: 45%;
+    justify-content: center;
+    border: 2px groove;
+    border-color:aquamarine ;
+    border-radius: 1rem 0rem 1rem 0rem;
+    height: max-content;
+}
+
+video{
+    border-radius: 1rem 0rem 1rem 0rem;
+
+}
+
+hr{
+   border-color: aqua;
+}
+.upcoming{
+    color: aqua;
+    padding:2rem ;
+    text-align: center;
+   
+}
+
+
+.upcoming-events{
+    display: flex;
+    justify-content: space-between;
+}
+
+.event{
+width: 30vw;
+ border: 2px groove;
+ border-radius: 2rem 0;
+ border-color: aqua;
+}
+
+.event img {
+    width: 30vw;
+    border-radius:2rem  0 ;
+    
+}
+
+.image{
+    position: relative;
+}
+.image .date {
+
+    font-size: 1.2rem;
+    margin-top: -2.4rem;
+    border-radius:0 1rem 0 0 ;
+    padding: .4rem;
+    color: black;
+    background-color: rgb(240, 250, 97);
+    position:absolute;
+ }
+
+.event h2 {
+   font-size: 1.8rem;
+   color: rgb(240, 240, 87);
+   padding-bottom: .4rem;
+   background-color: black;
+   border-bottom: 2px solid;
+
+}
+
+.event p {
+
+    font-size: 1rem;
+    padding: .8rem;
+    color: aliceblue;
+ }
+
+ .event button {
+
+    font-size: 1.6rem;
+    color: black;
+    background-color: rgb(129, 255, 255);
+    padding: .3rem;
+    border-radius: .7rem 0;
+    margin-bottom: 1rem;
+ }
+
+ .event button:hover {
+
+   background-color: rgb(255, 255, 122);
+   cursor: pointer;
+ }
+
+
+ .more-events{
+    font-size: 1.6rem;
+    color: black;
+   background-color: rgb(255, 255, 122);
+    padding: .3rem;
+    border-radius: .7rem 0;
+    margin-top: 1rem;
+ }
+
+ .more-events:hover{
+    cursor: pointer;
+    background-color: rgb(129, 255, 255);
+
+ }
+
+
+
+
+ .incharge-desk{
+    background-color: rgb(213, 255, 255);
+    padding: 2rem;
+    border-radius: 5rem 0;
+    margin: 4rem;
+
+ }
+
+ .desk{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .desk img {
+    margin-right: 2rem;
+    height: 15rem;
+    width: 15rem;
+    border: 2px groove;
+    border-radius: 5rem 0;
+    border-color: rgb(16, 108, 151);
+ }
+
+ .lower-text{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .president-desk{
+    background-color: rgb(247, 252, 200);
+    padding: 2rem;
+    border-radius: 5rem 0;
+    margin: 4rem;
+
+
+
+ }
