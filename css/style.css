@@ -84,7 +84,7 @@ h1{
     text-shadow:1px 1px 30px yellowgreen ;
     backdrop-filter: blur(5px);
 }
-p{
+/* p{
     color: aqua;
     font-size:1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -92,7 +92,7 @@ p{
     color: rgb(172, 172, 72);
     text-shadow:1px 1px 30px yellowgreen ;
    
-}
+} */
 
 @media only screen and (max-width: 900px) {
     .menu{
