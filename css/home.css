@@ -22,7 +22,7 @@ text-align: center;
 
 .home-message p{
     font-family: monospace;
-    font-size: 1rem;
+    font-size: .9rem;
     color: rgb(206, 245, 253);
     backdrop-filter: blur(50px);
 
