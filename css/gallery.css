@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@font-face {
+    font-family: century;
+    src: url(/font/FontsFree-Net-Centauri.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url("../img/backround.gif");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    /* background-size: 100% 100%; */
+    justify-content: center;
+   
+
+   
+}
+
+header{
+    background-color: rgb(169, 222, 238);
+    height: 3rem;
+    border-radius:0rem 0rem .8rem .8rem ;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    /* padding-left: 1rem; */
+    justify-content: space-around;
+    width:100%;
+
+}
+.logo{
+  width:max-content;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.logo-image img{
+  height: 2.5rem; 
+  border-radius: 50%;
+  margin-right: 1rem;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-text{
+    width: fit-content;
+    font-weight: 900;
+    font-size: large;
+    color: rgb(5, 89, 122);
+    
+}
+
+.logo-text:hover{
+    
+    color: rgb(29, 113, 146);
+}
+.menu {
+    /* width:30% ; */
+    display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+    
+   font-size: x-small;
+}
+li{
+    margin-left: 10px;
+}
+.gallery_title{
+    color: aqua;
+    text-align: center;
+    border: 3px solid rgb(211, 111, 16);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    padding: 0.9rem;
+    border-top-left-radius:4rem ;
+    border-bottom-right-radius: 4rem;
+}
+
+.combine_gallery{
+    margin-top: 3rem;
+    display: flex;
+    justify-content:center;
+}
+
+.gallery_content button{
+    font-size: 1rem;
+    border: 3px solid  rgb(211, 111, 16);
+    margin-right: 0.5rem;
+    padding: 0.6rem;
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    transition: transform .2s;
+}
+.button:hover{
+  transform: scale(1.1);
+}
+
+.img_coding_c{ 
+    margin-left: 10rem;
+    margin-top: 5rem;
+    border: 1px solid aqua;
+    padding: 1rem;
+    float: left;
+}
+.event_title h3{
+    color:rgb(228, 85, 20);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 900px) {
+    .menu{
+       display: none;
+    }
+    
+}
