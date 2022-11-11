@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@font-face {
+    font-family: century;
+    src: url(/font/FontsFree-Net-Centauri.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url("../img/backround.gif");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    /* background-size: 100% 100%; */
+    justify-content: center;
+   
+
+   
+}
+
+header{
+    background-color: rgb(169, 222, 238);
+    height: 3rem;
+    border-radius:0rem 0rem .8rem .8rem ;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    /* padding-left: 1rem; */
+    justify-content: space-around;
+    width:100%;
+
+}
+.logo{
+  width:max-content;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.logo-image img{
+  height: 2.5rem; 
+  border-radius: 50%;
+  margin-right: 1rem;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-text{
+    width: fit-content;
+    font-weight: 900;
+    font-size: large;
+    color: rgb(5, 89, 122);
+    
+}
+
+.logo-text:hover{
+    
+    color: rgb(29, 113, 146);
+}
+.menu {
+    /* width:30% ; */
+    display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+    
+   font-size: x-small;
+}
+li{
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .menu{
+       display: none;
+    }
+    
+}
+
+.contact_title{
+    text-align: center;
+    color: rgb(255, 128, 0);
+    margin-top: 1.5rem;
+    border: 3px solid rgb(0, 208, 255);
+    width: fit-content;
+    margin-left: auto;
+   margin-right:auto;
+   padding: 0.6rem;
+   border-bottom-right-radius: 3rem;
+   border-top-left-radius: 3rem;
+}
+
+.contact_msg{
+    color:rgb(42, 230, 95);
+    text-align: center;
+    margin-top: 2.2rem;
+    margin-bottom: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    
+}
+.main_content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin-left: 6rem;
+}
+
+.find_us {
+    color: antiquewhite;
+    background-color: rgb(7, 35, 39);
+    border: 2px solid rgb(188, 142, 26);
+    width: 23.5vw;
+    height: 55vh;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+    margin-left: 2px;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.find_us:hover{
+    transform: scale(1.1);
+
+}
+
+.hr_line{
+    border:none;
+    width: 25vw;
+   height: 45px;
+   margin-top: -1rem;
+   border-bottom: 1px solid #1f1209;
+   box-shadow: 0 20px 20px -20px rgb(210, 236, 10);
+   margin-left: auto;
+   margin-right: auto;
+}
+ .find_us p,.find_us h2{
+    margin-top: 3rem;
+    font-family:'Courier New', Courier, monospace;
+ } 
