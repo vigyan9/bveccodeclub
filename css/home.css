@@ -275,7 +275,7 @@ margin-bottom: 1rem;
              }
 
              .desk{
-                display: flex;
+                display: list-item;
                 justify-content: space-between;
              }
 
@@ -283,7 +283,8 @@ margin-bottom: 1rem;
             
             
              .desk img {
-                margin-right: 2rem;
+                margin-right:auto;
+                margin-left:auto;
                 height: 5rem;
                 width:5rem;
                 /* width: 15rem; */
