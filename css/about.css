@@ -94,12 +94,7 @@ p{
    
 }
 
-@media only screen and (max-width: 900px) {
-    .menu{
-       display: none;
-    }
-    
-}
+
 #countdown{
     font-size: 2rem;
 }
@@ -151,7 +146,7 @@ margin-right: auto;
    
     font-size:2rem;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-around;
       margin-bottom: 1rem;
     cursor: pointer; 
 }
@@ -220,7 +215,6 @@ margin-right: auto;
 }
 .wikipedia{
     color: rgb(55, 55, 214);
-   
     border: 2px solid aqua ;
     width: 6vw;
     border-top-left-radius: 1.5rem;
@@ -231,3 +225,23 @@ margin-right: auto;
 .fa:hover{
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 900px) {
+    .menu{
+       display: none;
+    }
+    .socialmedia{
+        font-size:1rem;
+          display: flex;
+          justify-content: space-evenly;
+          margin-bottom: 1rem;
+        cursor: pointer; 
+    } 
+    .fa{
+        border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    }
+}
+
+    
+
