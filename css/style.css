@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 @font-face {
-    font-family: century;
+    font-family: monospace;
     src: url(/font/FontsFree-Net-Centauri.ttf);
 }
 *{
@@ -9,8 +9,14 @@
     padding: 0;
     font-family: century;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;   
 }
+
+a{
+    color: black;
+
+}
+
 body{
     background-image: url("../img/backround.gif");
     background-color: black;
@@ -25,10 +31,11 @@ body{
 }
 
 header{
-    background-color: rgb(169, 222, 238);
-    height: 3rem;
-    border-radius:0rem 0rem .8rem .8rem ;
+    background-color:rgb(145, 220, 250);
+    height: 3.5rem;
+    /* border-radius:0rem 0rem .8rem .8rem ; */
     align-items: center;
+    position:relative;
     text-align: center;
     display: flex;
     /* padding-left: 1rem; */
@@ -36,19 +43,29 @@ header{
     width:100%;
 
 }
-.logo{
+
+/* .logo{
   width:max-content;
     display: flex;
     align-items: center;
     text-align: center;
     cursor: pointer;
-}
+} */
 .logo-image img{
-  height: 2.5rem; 
-  border-radius: 50%;
-  margin-right: 1rem;
+  height: 8rem; 
+  border-radius:4rem 0;
+  /* top: -4rem; */
+
+/* position:absolute; */
 
 }
+
+
+
+
+
+
+
 img{
     display: block;
     margin-left: auto;
@@ -72,19 +89,35 @@ img{
    justify-content: space-between;
    cursor: pointer;
     
-   font-size: x-small;
+   font-size:1.3rem;
 }
-li{
-    margin-left: 10px;
+.menu li{
+    margin: 1rem;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    padding: 5px;
+    border-color: rgb(14, 110, 110);
+    border-radius: 1rem 0;
 }
-h1{
+
+.menu li:hover{
+    background-color: beige;
+    border-right: 1px solid;
+    border-top: 1px solid;
+
+
+
+}
+.welcome{
     color: aqua;
+font-size: 3rem;
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 10rem;
+    margin-bottom: 1.8rem;
     text-shadow:1px 1px 30px yellowgreen ;
     backdrop-filter: blur(5px);
 }
-p{
+/* p{
     color: aqua;
     font-size:1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -92,7 +125,7 @@ p{
     color: rgb(172, 172, 72);
     text-shadow:1px 1px 30px yellowgreen ;
    
-}
+} */
 
 @media only screen and (max-width: 900px) {
     .menu{
@@ -102,4 +135,96 @@ p{
 }
 #countdown{
     font-size: 2rem;
+}
+
+footer{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    position:relative;
+    background-color: rgb(117, 151, 143);
+    height: 15rem;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+
+}
+.footer-design{
+    position:relative ;
+  width: 320px;
+  height:6rem;
+  /* background-color: rgb(59, 8, 8); */
+  top:0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 9rem 0;
+   
+}
+.footer-design::before, .footer-design::after{
+    position: absolute;
+  content:"";
+  border-right: 60px solid transparent;
+  border-left:60px solid transparent;
+  width: 200px;
+  height:0px;
+  left:0;
+}
+
+.footer-design::before{
+    border-top:40px solid rgb(3, 3, 3);
+  top:0;
+}
+
+/* .logo-image::after{
+    border-bottom:60px solid rgb(0, 0, 0);
+    top:-60px;
+} */
+
+.first-column{
+ font-size: medium;
+ width: 30%;
+}
+.second-column{
+
+    background-color: white;
+    width: min-content;
+    height: fit-content;
+    border-radius: 50%;
+    
+
+}
+
+.second-column img{
+    height: 8rem;
+   
+}
+
+
+.third-column{
+    font-size: medium;
+    width: 30%;
+
+}
+
+.copyright{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+/* width: max-content; */
+    background-color: rgb(255, 255, 255);
+border-radius: 1rem  0;
+padding: .4rem;
+margin-bottom: 1rem;
+}
+
+
+.copyright p{
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(47, 48, 41);
+    
 }
