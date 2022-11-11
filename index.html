@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home | BVEC Code Club</title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
@@ -22,9 +23,9 @@
         
     </div>
    
-        <div class="logo-image">
+        <a href="./index.html"><div class="logo-image">
             <img src="./img/logo.png" alt="">
-        </div>
+        </div></a>
     
 
     <div class="menu">
@@ -36,6 +37,35 @@
     </div>
     
    </header>
+
+
+   <!-- Mobile Menu -->
+   <!-- <div class="mobile-container"> -->
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+     
+      <div id="myLinks">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./event.html">Event</a>
+        <a href="./team.html">Team</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./history.html">History</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+    </div>
+    
+    
+
+
+
+    
     <!-- <img src="./img/backround.gif" alt=""> -->
     
     <h1 class="welcome">Welcome to BVEC Code Club <h1>
@@ -108,23 +138,24 @@
 
             
         </div>
-        <button class="more-events">More Events</button>
+        <a href="./event.html" ><button class="more-events">More Events</button></a>
     </section>
-    
+<div class="message">
     <section class="incharge-desk">
-        <h1 style="text-align: center; color: rgb(12, 97, 69); font-size: 2rem;">From the Incharge's Desk</h1>
+        <h1 style="text-align: center; color: rgb(12, 97, 69); font-size: 1rem; margin-bottom: 1rem;">From the Incharge's Desk</h1>
 
         <div class="desk">
             <img src="./img/gautam.jpg" alt="">
           <div class="text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eos sint dignissimos libero expedita autem consequatur, fugit ea ad vel quisquam corporis praesentium reiciendis quibusdam explicabo, saepe recusandae quidem culpa.</p>
+            <p>Coding is a hidden instinct in us which once groomed with enlightened association can bring out the best of creativity. So dive into the association of coders and translate your imagination into reality.</p><br>
+
             <div class="lower-text">
-            <div class="social">
+            <!-- <div class="social">
                 <i>insta</i>
                 <i>insta</i>
                 <i>insta</i>
                 <i>insta</i>
-            </div>
+            </div> -->
             <div class="about">
                 <p class="role">Faculty In-charge</p>
                 <p class="name">Mr. Gautam Nath</p>
@@ -138,19 +169,21 @@
 
 
     <section class="president-desk">
-        <h1 style="text-align: center; color: rgb(12, 97, 69);font-size: 2rem;">From the President's Desk</h1>
+        <h1 style="text-align: center; color: rgb(12, 97, 69);font-size: 1rem; margin-bottom: 1rem;">From the President's Desk</h1>
         <div class="desk">
             <img src="./img/monowar.jpg" alt="">
           <div class="text">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eos sint dignissimos libero expedita autem consequatur, fugit ea ad vel quisquam corporis praesentium reiciendis quibusdam explicabo, saepe recusandae quidem culpa.</p>
+            <p>First of all, I am privileged and honoured to hold the position of the President of BVEC Code Club. As a president of this club my first priority is to ensure a good environment for coding for the students of our college. 
+
+               <br><br> My main aim in my tenure is to provide the students of this club who are keenly interested in coding to compete and grow.</p><br>
             <div class="lower-text">
-                <div class="social">
+                <!-- <div class="social">
                     <i>insta</i>
                     <i>insta</i>
                     <i>insta</i>
                     <i>insta</i>
-                </div>
+                </div> -->
             <div class="about">
                 <p class="role">President</p>
                 <p class="name">Monowar Hussain</p>
@@ -161,6 +194,8 @@
     </div>
     </section>
 
+</div>
+
     
     <footer>
         <div class="footer-design"></div>
@@ -168,7 +203,7 @@
 
         <div class="first-column">
 <h3>Pages</h3>
-<hr>
+
 <li>Privacy</li>
 <li>Terms</li>
 <li>Constitution</li>
@@ -178,7 +213,7 @@
         </div>
         <div class="third-column">
             <h3>Important Links</h3>
-            <hr>
+            
             <li>BVEC Main Website</li>
             <li>Club Magzine</li>
             <li>Training & Placement</li>

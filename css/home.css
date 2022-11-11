@@ -184,3 +184,123 @@ width: 30vw;
 
 
  }
+
+
+ @media only screen and (max-width: 900px) {
+    .landing{
+       display: list-item;
+        /* width: 100%; */
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-message{
+        width: 100%;
+    }
+    .message-title{
+        font-size: .9rem;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        .home-message p{
+            font-family: monospace;
+            font-size: .9rem;
+            color: rgb(206, 245, 253);
+            backdrop-filter: blur(50px);
+        
+        }
+
+        .home-message button{
+            background-color: rgb(165, 250, 250);
+           padding: .3rem;
+           font-weight:500 ;
+           margin-bottom: 1rem;
+           
+           border-radius: 1rem 0;
+           cursor: pointer;
+        }
+
+        .home-video{
+            width: 100%;
+            justify-content: center;
+            border: 2px groove;
+            border-color:aquamarine ;
+            border-radius: 1rem 0rem 1rem 0rem;
+            height: max-content;
+        }
+
+        .upcoming{
+            color: aqua;
+            padding:2rem ;
+            text-align: center;
+         font-size:1rem;
+         background-color: black;
+           
+        }
+
+        .upcoming-events{
+            display: list-item;
+    
+        }
+
+        .event{
+            width: 80vw;
+             border: 2px groove;
+             border-radius: 2rem 0;
+             border-color: aqua;
+             margin-bottom: 1rem;
+            }
+
+            .event img {
+                width: 80vw;
+                border-radius:2rem  0 ;
+                
+            }
+
+           .message{
+            margin: 1rem;
+           } 
+
+            .incharge-desk, .president-desk{
+                background-color: rgb(213, 255, 255);
+                /* padding: 2rem; */
+                /* width:; */
+                margin:0;
+                border-radius: 5rem 0;
+                font-size: 1rem;
+margin-bottom: 1rem;
+
+            
+             }
+
+             .desk{
+                display: list-item;
+                justify-content: space-between;
+             }
+
+             
+            
+            
+             .desk img {
+                margin-right:auto;
+                margin-left:auto;
+                height: 5rem;
+                width:5rem;
+                /* width: 15rem; */
+                border: 2px groove;
+                border-radius: 1rem 0;
+                border-color: rgb(16, 108, 151);
+             }
+            
+             .lower-text{
+                display: flex;
+                margin-top: 2rem;
+                justify-content: space-between;
+             }
+     
+     
+    
+}
