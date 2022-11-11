@@ -18,10 +18,7 @@ body{
     background-position-x: center;
     background-attachment: fixed;
     /* background-size: 100% 100%; */
-    justify-content: center;
-   
-
-   
+    justify-content: center;  
 }
 
 header{
@@ -34,7 +31,6 @@ header{
     /* padding-left: 1rem; */
     justify-content: space-around;
     width:100%;
-
 }
 .logo{
   width:max-content;
@@ -79,12 +75,7 @@ li{
 }
 
 
-@media only screen and (max-width: 900px) {
-    .menu{
-       display: none;
-    }
-    
-}
+
 
 .contact_title{
     text-align: center;
@@ -149,3 +140,22 @@ li{
     margin-top: 3rem;
     font-family:'Courier New', Courier, monospace;
  } 
+
+ @media only screen and (max-width: 900px) {
+    .menu{
+       display: none;
+    }
+    .contact_msg{
+        margin-left: 0.5rem;
+    }
+    .main_content{
+        display: inline-table;
+    }
+   .find_us{
+    width:55.5vw;
+    height: 60vh;
+    margin-bottom: 2.3rem;
+   }
+    
+    
+}

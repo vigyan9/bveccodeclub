@@ -94,12 +94,7 @@ h1{
    
 } */
 
-@media only screen and (max-width: 900px) {
-    .menu{
-       display: none;
-    }
-    
-}
+
 #countdown{
     font-size: 2rem;
 }
@@ -134,7 +129,7 @@ h1{
 }
 
 .combine_photo{
-    display: flex;
+    display:flex ;
     justify-content:space-evenly;
      margin-bottom: 4rem;
 
@@ -217,4 +212,40 @@ cursor: pointer;
 
 .teamphoto img{
     width: 233px;
+}
+
+@media only screen and (max-width: 900px) {
+    .menu{
+        display: none;
+     }
+     
+    .combine_photo{
+        display:list-item;
+        justify-content:space-evenly;
+        text-align: center;
+          margin-left: 5rem;
+    }
+    .teamphoto{
+     margin-bottom: 5rem;
+     width: 72vw;
+     height: 55vh;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     
+    }
+    .teamphoto img{
+        width:55vw;
+        height:38vh;
+    }
+    .social_icon{
+        font-size: 4rem;
+        padding:2px;
+        border-radius: 0.5rem;
+        margin-left: -5rem ;
+        width: fit-content;
+        margin:1rem;
+       
+    }
+    
 }
