@@ -108,6 +108,9 @@ img{
 
 
 }
+.topnav{
+    display: none;
+}
 .welcome{
     color: aqua;
 font-size: 3rem;
@@ -302,6 +305,10 @@ footer li:hover{
     
 
 /* Mobile Menu */
+
+.topnav{
+    display: block;
+}
 
     .topnav #myLinks {
         display: none;
