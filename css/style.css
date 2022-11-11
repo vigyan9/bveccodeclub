@@ -258,7 +258,7 @@ footer li:hover{
         width: 30%;
        }
        .second-column img{
-        height: 6rem;
+        height: 4rem;
        
     }
     
@@ -273,4 +273,31 @@ footer li:hover{
 
         
     }
+
+    .footer-design{
+        position:relative ;
+      width: 160px;
+      height:6rem;
+      /* background-color: rgb(59, 8, 8); */
+      top:0px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 9rem 0;
+       
+    }
+    .footer-design::before, .footer-design::after{
+        position: absolute;
+      content:"";
+      border-right: 30px solid transparent;
+      border-left:30px solid transparent;
+      width: 100px;
+      height:0px;
+      left:0;
+    }
+    
+    .footer-design::before{
+        border-top:25px solid rgb(3, 3, 3);
+      top:0;
+    }
+    
 }
